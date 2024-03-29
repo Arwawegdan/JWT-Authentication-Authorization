@@ -1,7 +1,8 @@
 JWT Authentication and Authorization
 This project is an implementation of JSON Web Token (JWT) based authentication and authorization in a web application, using ASP.NET Core and Entity Framework Core. It provides endpoints for user registration, email verification, login, and retrieving user information. The project utilizes the Microsoft.AspNetCore.Identity package for managing user accounts and roles.
 
-**Table of Contents
+**Table of Contents 
+
 Introduction
 Features
 Prerequisites
@@ -36,7 +37,9 @@ Configure your database connection string in the appsettings.json file.
 Run Entity Framework migrations to create the necessary database schema.
 
 Start the application.
-Utilize the provided endpoints for user registration, login, email verification, and user information retrieval.
+Utilize the provided endpoints for user registration, login, email verification, and user information retrieval
+
+
 Endpoints
 POST /api/SeedUserRoles: Seed user roles in the database.
 POST /api/RegisterAspUser: Register a new user with ASP.NET Identity.
