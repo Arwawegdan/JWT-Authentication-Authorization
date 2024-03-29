@@ -1,0 +1,9 @@
+﻿global using MimeKit;
+global using MailKit.Net.Smtp;
+global using MimeKit.Text;
+global using Microsoft.EntityFrameworkCore;
+global using JWTAuthenticationAuthorization;
+global using Microsoft.AspNetCore.Authentication.JwtBearer;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.IdentityModel.Tokens;
+global using System.Text;
